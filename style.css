@@ -1,0 +1,126 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(im/pexels-roberto-nickson-7238759.jpg);
+    background-size: cover;
+    background-color:rgba(53, 48, 48, 0.2); 
+}
+.resigtration-form{
+    width: 400px;
+    height: 720px;
+    background: rgb(0,0, 0,0.6);
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    box-shadow: 5px 5px 10px blue,
+                -5px -5px 10px black;   
+}
+.user-icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    left: 35%;
+    position: relative;
+    margin-top: -13%;
+}
+.resigtration-form h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: white
+}
+.input-field label{
+    margin-left: 35px;
+    margin-top: 15px;
+    color: rgb(245, 239, 239);
+    margin-bottom: 18px;
+}
+.input-field label:hover{
+    background-color: rgb(130, 153, 153);
+    
+}
+.resigtration-form input[type="text"],[type="number"],[type="email"],[type="password"]{
+    width: 320px;
+    height: 20px;
+    margin-left: 35px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid rgb(10, 10, 10);
+    color: white;
+    font-size: 16px;
+}
+.submit-btn{
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 320px;
+    height: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.submit-btn:hover{
+    background-color: rgb(175, 104, 241);
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
